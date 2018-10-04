@@ -14,7 +14,7 @@ import java.util.zip.Inflater
 
 class CategoryRecycleAdapter(val context: Context, val categories: List<Category>, val itemClick: (Category) -> Unit) : RecyclerView.Adapter<CategoryRecycleAdapter.Holder>() {
     override fun onBindViewHolder(p0: Holder, p1: Int) {
-        p0?.bindCategory(categories[p1], context)
+        p0.bindCategory(categories[p1], context)
     }
 
     override fun onCreateViewHolder(p0: ViewGroup, p1: Int): Holder {
