@@ -9,8 +9,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.example.coderswag.Model.Category
 import com.example.coderswag.R
-import kotlinx.android.synthetic.main.category_list_item.view.*
-import java.util.zip.Inflater
 
 class CategoryRecycleAdapter(val context: Context, val categories: List<Category>, val itemClick: (Category) -> Unit) : RecyclerView.Adapter<CategoryRecycleAdapter.Holder>() {
     override fun onBindViewHolder(p0: Holder, p1: Int) {
