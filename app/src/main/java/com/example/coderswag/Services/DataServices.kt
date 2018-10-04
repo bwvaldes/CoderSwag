@@ -8,8 +8,17 @@ object DataServices {
     val categories = listOf(
             Category("SHIRTS", "shirtimage"),
             Category("HOODIES", "hoodieimage"),
+            Category("HATS", "hatimage"),
+            Category("DIGITAL", "digitalgoodsimage"),
+            Category("SHIRTS", "shirtimage"),
+            Category("HOODIES", "hoodieimage"),
+            Category("HATS", "hatsimage"),
+            Category("DIGITAL", "digitalgoodsimage"),
+            Category("SHIRTS", "shirtimage"),
+            Category("HOODIES", "hoodieimage"),
             Category("HATS", "hatsimage"),
             Category("DIGITAL", "digitalgoodsimage")
+
     )
 
     val hats = listOf(
